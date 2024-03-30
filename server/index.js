@@ -10,7 +10,7 @@ const app = express()
 
 app.use(express.json())
 app.use(cors({
-    origin: "https://hypersrot-tech-task.onrender.com/"
+    origin: "https://hypersrot-tech-task.onrender.com"
 }))
 app.use(express.static(path.join(__dirname, "dist")))
 
