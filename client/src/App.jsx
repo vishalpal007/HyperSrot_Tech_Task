@@ -206,9 +206,9 @@ const App = () => {
                 <input onChange={handleChange} name='assignee' type="text" className="input input-bordered flex-grow h-8" />
               </div>
 
-              <div className='my-2 flex items-center w-52'>
+              <div className='my-2 flex items-center'>
                 <span className='font-semibold w-24'>Priority:</span>
-                <select onChange={handleChange} name='priority' className="select select-bordered flex-grow ">
+                <select onChange={handleChange} name='priority' className="select select-bordered flex-grow">
                   <option selected disabled>Select</option>
                   <option value="P0">P0</option>
                   <option value="P1">P1</option>
@@ -221,6 +221,7 @@ const App = () => {
             </div>
           </form>
         </dialog>
+
         {/* Add Modal */}
 
 

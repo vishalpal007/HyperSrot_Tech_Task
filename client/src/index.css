@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+/* CSS for responsiveness */
+.modal-box {
+    max-width: 100%;
+    /* Ensure the dialog box doesn't exceed the viewport width */
+}
+
+@media (min-width: 640px) {
+    .modal-box {
+        max-width: 500px;
+        /* Adjust the maximum width for larger screens */
+        margin: 0 auto;
+        /* Center the dialog box horizontally */
+    }
+}
+
+@media (max-width: 639px) {
+    .modal-box {
+        padding: 0 10px;
+        /* Adjust padding for smaller screens */
+    }
+}
