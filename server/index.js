@@ -9,7 +9,9 @@ const path = require("path")
 const app = express()
 
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin: "https://hypersrot-tech-task.onrender.com/"
+}))
 app.use(express.static(path.join(__dirname, "dist")))
 
 
