@@ -6,4 +6,5 @@ In this particular project, the administrator is responsible for delegating a sp
 
 https://hypersrot-tech-task.onrender.com/
 
+![Screenshot (87)](https://github.com/vishalpal007/HyperSrot_Tech_task/assets/141631079/efe0607e-d3ab-44d6-b37c-e44d4378efcb)
 
